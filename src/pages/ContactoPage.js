@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/pages/ContactoPage.css'
 
 const ContactoPage = (props) => {
     return (
-        <main className="holder contacto">
+        <main className="holder-contacto">
             <div>
                 <h2>Contacto Rápido</h2>
                 <form className="formulario" action="" method="" >

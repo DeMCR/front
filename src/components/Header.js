@@ -1,5 +1,6 @@
 import React from 'react';
-/*import Nav from './Nav';*/
+import '../styles/layout/header.css'
+import Nav from './Nav';
 const Header = (props) => {
     return (
         <header>
@@ -8,7 +9,8 @@ const Header = (props) => {
             
                  
             </div>
-            </header>
+            <Nav />
+         </header>
     );
 }
 export default Header;
